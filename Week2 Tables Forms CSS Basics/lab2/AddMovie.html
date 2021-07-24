@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Office</title>
+  </head>
+  <body>
+    <h1><a href="BoxOffice.html">Box Office</a> > Add Movie</h1>
+    <form>
+      <table border="1" cellpadding="2">
+        <thead>
+          <tr>
+            <th>Movie:</th>
+            <td><input type="text" name="title" /></td>
+          </tr>
+          <tr>
+            <th>Studio:</th>
+            <td>
+              <select name="Studio">
+                <option value="1">Sony Pictures Releasing</option>
+                <option value="2">STX Entertainment</option>
+                <option value="3">Universal Pictures</option>
+                <option value="4">Walt Disney Studios</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>Gross:</th>
+            <td><input type="text" name="Gross" /></td>
+          </tr>
+          <tr>
+            <th>Theaters:</th>
+            <td><input type="text" name="Theaters" /></td>
+          </tr>
+          <tr>
+            <th>New Release:</th>
+            <td><input type="checkbox" name="New" /></td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="reset" name="Reset" />
+              <button type="button" name="Add">Add</button>
+            </td>
+          </tr>
+        </thead>
+      </table>
+    </form>
+  </body>
+</html>

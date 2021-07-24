@@ -1,0 +1,35 @@
+#topbar {
+  font-size: 75%;
+  text-align: right;
+  background-color: black;
+  color: white;
+}
+
+#header {
+  font-size: 200%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+#separator {
+  background-color: gold;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.headlines {
+  font-weight: bold;
+  font-size: 120%;
+}
+
+p {
+  text-indent: 1em;
+}
+
+#footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 75%;
+}

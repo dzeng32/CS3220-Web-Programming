@@ -1,0 +1,20 @@
+#d1 {
+    color: green;
+}
+
+.blue{
+    color: blue;
+}
+
+.big{
+    font-size: 150%;
+}
+
+[name]{
+    font-size: 75%;
+}
+
+p,div {
+    text-decoration: underline;
+}
+ 
