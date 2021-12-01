@@ -1,0 +1,84 @@
+h2{
+    border: 1px solid black;
+    background-color: white;
+    padding: 1em 0;
+    margin: 0;
+    width: 100%;
+    clear: both;
+    position: fixed;
+    top: 0px;
+}
+
+#menu{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    background-color: white;
+    padding: 10px 0;
+    margin-top: 69.5px;
+    width: 100%;
+    clear: both;
+    position: fixed;
+}
+
+#AD1{
+    background-color: yellow;
+    float: left;
+    width: 64%;
+    height: 200px;
+    margin-top: 120px;
+    margin-bottom: 10px;
+}
+
+#AD2{
+    background-color: yellow;
+    float: right;
+    width: 33%;
+    height: 200px;
+    margin-top: 120px; 
+    margin-bottom: 10px;
+}
+
+#leftcontainer{
+    float: left;
+    width: 64%;
+}
+
+#h1Deals{
+    font-weight: bold;
+    font-size: 25px;
+    border-bottom: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.dealsbox{
+    border: 1px solid black;
+    /* width: 62%; */
+    font-size: 18px;
+    font-weight:bold;
+    padding-top: 5px;
+    padding-left: 8px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-weight: normal;
+}
+
+#rightcontainer{
+    float: right;
+    width: 33%;
+}
+
+#h1TDeals{
+    font-weight: bold;
+    font-size: 25px;
+    border-bottom: 3px solid black;
+    margin-bottom: 10px;
+}
+
+#footer{
+    border: 1px solid black;
+    clear: both;
+    text-align: center;
+}

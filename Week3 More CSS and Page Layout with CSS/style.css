@@ -1,0 +1,37 @@
+/* ----------Box Office---------------- */
+table{
+    border-collapse:collapse;
+}
+
+td{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 2px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ----------Add Movie---------------- */
+
+#mainbody{
+    border: 1px solid black;
+    padding: 0 1em 1em 1em;
+    float: left;
+}
+
+input[type=text]{
+    width: 180px;
+}
+
+#category{
+    float: left;
+    font-weight: bold;
+    padding-right: 1em;
+    line-height: 1.6;
+}
+
+form{
+    line-height: 27px;
+}
